@@ -70,9 +70,60 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebPage",
+    "@type": "WebSite",
     "name": "Shree Raj Khatiwada Portfolio",
-    "description": "Professional research and teaching portfolio of Shree Raj Khatiwada.",
+    "url": "https://www.shreerajk.com.np",
+    "description": "Professional portfolio and research repository of Shree Raj Khatiwada, Researcher & Computer Science Educator.",
+    "publisher": {
+      "@type": "Person",
+      "name": "Shree Raj Khatiwada"
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.shreerajk.com.np/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Shree Raj Khatiwada Portfolio - Researcher & Computer Science Educator",
+    "description": "Professional research and teaching portfolio of Shree Raj Khatiwada specializing in AI, distributed systems, 5G networks, and education technology in Nepal.",
+    "url": "https://www.shreerajk.com.np",
+    "author": {
+      "@type": "Person",
+      "name": "Shree Raj Khatiwada",
+      "jobTitle": "Researcher & Computer Science Educator",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Makawanpur Multiple Campus",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Hetauda",
+          "addressCountry": "NP"
+        }
+      },
+      "email": "shreerajhtd@gmail.com",
+      "telephone": "+977-9845589642",
+      "sameAs": [
+        "https://www.linkedin.com/in/shreerajkhatiwada/",
+        "https://scholar.google.com/citations?hl=en&user=OkmkOGUAAAAJ",
+        "https://orcid.org/0009-0008-8605-6609",
+        "https://www.slideshare.net/ShreerajKhatiwada"
+      ]
+    },
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "Shree Raj Khatiwada Portfolio",
+      "url": "https://www.shreerajk.com.np"
+    },
+    "about": {
+      "@type": "Person",
+      "name": "Shree Raj Khatiwada",
+      "description": "Researcher and Computer Science Educator specializing in AI, distributed systems, and education technology in Nepal"
+    },
     "breadcrumb": {
       "@type": "BreadcrumbList",
       "itemListElement": [
@@ -85,20 +136,30 @@
       ]
     },
     "mainEntity": {
-      "@id": "https://www.shreerajk.com.np/#person"
-    }
-  }
-  </script>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Shree Raj Khatiwada Portfolio",
-    "url": "https://www.shreerajk.com.np",
-    "description": "Professional portfolio and research repository of Shree Raj Khatiwada, Researcher & Computer Science Educator.",
-    "publisher": {
-      "@type": "Person",
-      "name": "Shree Raj Khatiwada"
+      "@type": "ItemList",
+      "name": "Website Sections",
+      "numberOfItems": 6,
+      "itemListElement": [
+        {"@type": "WebPageElement", "name": "About", "description": "Professional background and biography", "isPartOf": {"@type": "WebPage", "name": "About Section"}},
+        {"@type": "ItemList", "name": "Technical Skills", "description": "Areas of technical expertise", "numberOfItems": 9, "itemListElement": ["Artificial Intelligence", "Distributed Databases", "Computer Architecture", "Cluster Computing", "5G Network Technologies", "Green Computing", "Computer Graphics & Animation", "Academic Research", "Data Analysis"]},
+        {"@type": "ItemList", "name": "Research & Projects", "description": "Academic publications and technical presentations", "numberOfItems": 6, "itemListElement": [
+          {"@type": "ScholarlyArticle", "name": "Smartphone Impact Analysis", "datePublished": "2024", "url": "https://doi.org/10.3126/irjmmc.v6i3.83027"},
+          {"@type": "ScholarlyArticle", "name": "Education Financing in Nepal", "datePublished": "2025", "url": "https://doi.org/10.3126/jems.v3i2.8604"},
+          {"@type": "PresentationDigitalDocument", "name": "Distributed Database Strategies", "dateCreated": "2024"},
+          {"@type": "PresentationDigitalDocument", "name": "Computer Graphics & Animation", "dateCreated": "2024"},
+          {"@type": "PresentationDigitalDocument", "name": "5G Network Technologies", "dateCreated": "2024"},
+          {"@type": "PresentationDigitalDocument", "name": "Green Computing Initiatives", "dateCreated": "2024"}
+        ]},
+        {"@type": "ItemList", "name": "Experience", "description": "Professional experience and roles", "numberOfItems": 2},
+        {"@type": "FAQPage", "name": "Frequently Asked Questions", "mainEntity": [
+          {"@type": "Question", "name": "Who is Shree Raj Khatiwada?"},
+          {"@type": "Question", "name": "What are research interests?"},
+          {"@type": "Question", "name": "Where does Shree Raj Khatiwada work?"},
+          {"@type": "Question", "name": "What publications has Shree Raj Khatiwada authored?"},
+          {"@type": "Question", "name": "How can I contact Shree Raj Khatiwada?"}
+        ]},
+        {"@type": "ContactPage", "name": "Contact Information", "url": "https://www.shreerajk.com.np/#contact"}
+      ]
     }
   }
   </script>
@@ -108,15 +169,9 @@
       "@context": "https://schema.org",
       "@type": "ScholarlyArticle",
       "headline": "Reimagining Education Financing in Nepal: A Policy and Budget Analysis",
-      "author": {
-        "@type": "Person",
-        "name": "Shree Raj Khatiwada"
-      },
+      "author": {"@type": "Person", "name": "Shree Raj Khatiwada"},
       "datePublished": "2025",
-      "publisher": {
-        "@type": "Organization",
-        "name": "Journal of Emerging Management Studies"
-      },
+      "publisher": {"@type": "Organization", "name": "Journal of Emerging Management Studies"},
       "url": "https://doi.org/10.3126/jems.v3i2.8604",
       "keywords": "Education Financing, Nepal, Policy Analysis, Budget Analysis",
       "isAccessibleForFree": true,
@@ -126,15 +181,9 @@
       "@context": "https://schema.org",
       "@type": "ScholarlyArticle",
       "headline": "Smartphone Impact Analysis",
-      "author": {
-        "@type": "Person",
-        "name": "Shree Raj Khatiwada"
-      },
+      "author": {"@type": "Person", "name": "Shree Raj Khatiwada"},
       "datePublished": "2024",
-      "publisher": {
-        "@type": "Organization",
-        "name": "International Research Journal of MMC (IRJMMC)"
-      },
+      "publisher": {"@type": "Organization", "name": "International Research Journal of MMC (IRJMMC)"},
       "url": "https://doi.org/10.3126/irjmmc.v6i3.83027",
       "keywords": "Smartphone Impact, Higher Education, Mobile Distraction, Nepal",
       "isAccessibleForFree": true,
@@ -142,100 +191,12 @@
     }
   ]
   </script>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "Who is Shree Raj Khatiwada?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Shree Raj Khatiwada is a researcher and computer science educator based in Nepal, specializing in artificial intelligence, distributed systems, 5G network technologies, and the impact of mobile technology on higher education."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What are Shree Raj Khatiwada's research interests?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "His research focuses on AI, distributed databases, cluster computing, computer architecture, 5G network technologies, green computing, and the intersection of technology and education in higher learning environments."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Where does Shree Raj Khatiwada work?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Shree Raj Khatiwada is associated with Makawanpur Multiple Campus, Hetauda, which is affiliated with Tribhuvan University in Nepal."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What publications has Shree Raj Khatiwada authored?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "He has published research on 'Reimagining Education Financing in Nepal' in the Journal of Emerging Management Studies (2025) and 'Smartphone Impact Analysis' in the International Research Journal of MMC (2024)."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How can I contact Shree Raj Khatiwada?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "You can contact him via email at shreerajhtd@gmail.com, phone at +977-9845589642, or through his LinkedIn profile at linkedin.com/in/shreerajkhatiwada."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What technical presentations has Shree Raj Khatiwada shared?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "He has delivered 8+ technical presentations on SlideShare covering topics including Cluster Computing, Query Processing in Distributed Databases, Computer Graphics, 5G Networks, Green Computing, and Mobile Phone Impacts on Students."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What is Shree Raj Khatiwada's ORCID ID?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "His ORCID ID is 0009-0008-8605-6609, which can be used to find his academic publications and research contributions."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What is Shree Raj Khatiwada's Google Scholar profile?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "His Google Scholar profile is available at scholar.google.com/citations?hl=en&user=OkmkOGUAAAAJ, showcasing his academic publications and citation metrics."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What education technology research has Shree Raj Khatiwada conducted?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "He has researched the impact of smartphone usage on students and the broader implications of mobile technology in higher education environments in Nepal."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What programming and technical skills does Shree Raj Khatiwada have?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "His technical expertise includes Artificial Intelligence, Distributed Databases, Computer Architecture, Cluster Computing, 5G Network Technologies, Green Computing, and Computer Graphics."
-        }
-      }
-    ]
-  }
-  </script>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%2310b981'/><text y='.75em' x='50%' text-anchor='middle' font-size='80' fill='white' font-family='sans-serif' font-weight='bold'>SRK</text></svg>">
-  <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <script src="https://cdn.tailwindcss.com" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'">
   <style>
     * { font-family: 'Inter', sans-serif; }
     html { scroll-behavior: smooth; }
@@ -254,6 +215,10 @@
     #back-to-top.visible { 
       opacity: 1; 
       visibility: visible; 
+    }
+    @media (max-width: 768px) {
+      html { font-size: 14px; }
+      .fade-in { animation-duration: 0.5s; }
     }
   </style>
 </head>
@@ -733,15 +698,30 @@
 
   <!-- Scripts & Error Boundary -->
   <script>
-    // Global Error Boundary
+    // Global Error Boundary with User Feedback
     window.onerror = function(message, source, lineno, colno, error) {
       console.error("Global Error Caught: ", message, error);
-      return true; 
+      if (document.getElementById('error-boundary')) {
+        document.getElementById('error-boundary').classList.remove('hidden');
+        document.getElementById('error-message').textContent = 'An error occurred. Please refresh the page.';
+      }
+      return true;
     };
 
     window.addEventListener('unhandledrejection', function(event) {
       console.error("Unhandled Promise Rejection: ", event.reason);
+      if (document.getElementById('error-boundary')) {
+        document.getElementById('error-boundary').classList.remove('hidden');
+        document.getElementById('error-message').textContent = 'An error occurred. Please refresh the page.';
+      }
     });
+
+    // Resource loading error handler
+    document.addEventListener('error', function(event) {
+      if (event.target.tagName === 'LINK' || event.target.tagName === 'SCRIPT' || event.target.tagName === 'IMG') {
+        console.warn('Resource failed to load:', event.target.src || event.target.href);
+      }
+    }, true);
 
     document.addEventListener('DOMContentLoaded', () => {
       try {
@@ -845,6 +825,22 @@
       }
     });
   </script>
+
+  <!-- Error Boundary UI -->
+  <div id="error-boundary" class="hidden fixed top-4 right-4 z-50 bg-red-50 border border-red-200 rounded-lg p-4 max-w-md shadow-lg" role="alert">
+    <div class="flex items-start gap-3">
+      <div class="flex-shrink-0">
+        <svg class="w-6 h-6 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+        </svg>
+      </div>
+      <div class="flex-1">
+        <h3 class="text-sm font-semibold text-red-800">Something went wrong</h3>
+        <p id="error-message" class="mt-1 text-sm text-red-600">An error occurred. Please refresh the page.</p>
+        <button onclick="document.getElementById('error-boundary').classList.add('hidden')" class="mt-2 text-xs text-red-500 hover:text-red-700">Dismiss</button>
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>
