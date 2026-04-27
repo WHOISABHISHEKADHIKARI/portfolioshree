@@ -1,0 +1,12 @@
+/* TEAM */
+    Shree Raj Khatiwada
+    Researcher & Computer Science Educator
+    Nepal
+    Contact: shreerajhtd@gmail.com
+
+/* SITE */
+    Last update: 2026/04/27
+    Language: English
+    Standards: HTML5, CSS3, JSON-LD
+    Components: Tailwind CSS, FontAwesome
+  

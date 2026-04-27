@@ -1,0 +1,97 @@
+{
+  "name": "Shree Raj Khatiwada",
+  "about": "A dedicated researcher and computer science educator with a focus on higher education, mobile technology impact, and emerging computing trends. Passionate about exploring the intersection of technology and education, with specialized knowledge in AI, distributed systems, and network architectures.",
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/shreerajkhatiwada/",
+    "google_scholar": "https://scholar.google.com/citations?hl=en&user=OkmkOGUAAAAJ",
+    "orcid": "https://orcid.org/0009-0008-8605-6609",
+    "slideshare": "https://www.slideshare.net/ShreerajKhatiwada"
+  },
+  "skills": [
+    "Artificial Intelligence",
+    "Distributed Databases",
+    "Computer Architecture",
+    "Cluster Computing",
+    "5G Network Technologies",
+    "Green Computing",
+    "Computer Graphics & Animation",
+    "Academic Research",
+    "Data Analysis"
+  ],
+  "publications": [
+    {
+      "title": "Reimagining Education Financing in Nepal: A Policy and Budget Analysis",
+      "journal": "Journal of Emerging Management Studies",
+      "year": "2025",
+      "doi": "10.3126/jems.v3i2.8604",
+      "link": "https://doi.org/10.3126/jems.v3i2.8604"
+    },
+    {
+      "title": "Smartphone Impact Analysis",
+      "journal": "International Research Journal of MMC (IRJMMC)",
+      "year": "2024",
+      "doi": "10.3126/irjmmc.v6i3.83027",
+      "link": "https://doi.org/10.3126/irjmmc.v6i3.83027"
+    }
+  ],
+  "presentations": [
+    {
+      "title": "The Power of 5th Generation Networks: Uses, Future Trends",
+      "platform": "SlideShare",
+      "views": 73,
+      "link": "https://www.slideshare.net/ShreerajKhatiwada/the-power-of-5th-generation-networks-uses-future-trends"
+    },
+    {
+      "title": "Green Computing Initiatives in Recent World",
+      "platform": "SlideShare",
+      "views": 137,
+      "link": "https://www.slideshare.net/ShreerajKhatiwada/green-computing-initiatives-in-recent-world"
+    },
+    {
+      "title": "Computer Graphics and Animation in Detail",
+      "platform": "SlideShare",
+      "views": 968,
+      "link": "https://www.slideshare.net/ShreerajKhatiwada/computer-graphics-and-animation-in-detail"
+    },
+    {
+      "title": "Artificial Intelligence General Overview",
+      "platform": "SlideShare",
+      "views": 59,
+      "link": "https://www.slideshare.net/ShreerajKhatiwada/artificial-intelligence-general-overview"
+    },
+    {
+      "title": "Query processing strategies in distributed database",
+      "platform": "SlideShare",
+      "views": 921,
+      "link": "https://www.slideshare.net/ShreerajKhatiwada/query-processing-strategies-in-distributed-database"
+    },
+    {
+      "title": "Basic Computer Architecture",
+      "platform": "SlideShare",
+      "views": 42,
+      "link": "https://www.slideshare.net/ShreerajKhatiwada/basic-computer-architeccture"
+    },
+    {
+      "title": "Cluster computing",
+      "platform": "SlideShare",
+      "views": 110,
+      "link": "https://www.slideshare.net/ShreerajKhatiwada/cluster-computing"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Makawanpur Multiple Campus",
+      "role": "Researcher / Faculty Member",
+      "period": "Present",
+      "location": "Hetauda, Nepal",
+      "description": "Conducting research in higher education and technology impact. Publishing peer-reviewed articles on digital wellness and education financing."
+    },
+    {
+      "company": "LinkedIn / SlideShare",
+      "role": "Technical Presenter",
+      "period": "Ongoing",
+      "location": "Remote",
+      "description": "Sharing knowledge on advanced computing topics including AI, 5G, and Computer Architecture."
+    }
+  ]
+}
